@@ -1,33 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-div.country {
-    background-color: black;
-    color: green;
-    margin: 20px 0 20px 0;
-    padding: 20px;
-} 
-</style>
+	<title> My Island Home</title>
+	<style>
+		body {
+			background-image: url(assets/img/efcb7af6c5b7ab7f77f7a80f84f0da65.jpg);
+			background-size: auto 100%;
+		}
+
+		h1 {
+			font-family: 'gillsans';
+		}
+
+		h2 {
+			font-size: 30px;
+			text-align: center;
+			font-family: 'gillsans';
+		}
+
+		#t1 {
+			color: red;
+		}
+
+		#t2 {
+			color: yellow;
+		}
+
+		#t3 {
+			color: green;
+		}
+
+		#t4 {
+			color: red;
+		}
+
+		#t5 {
+			color: black;
+		}
+
+		#title {
+			text-align: center;
+		}
+
+		ul {
+			font-family: 'gillsans';
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		li a {
+			display: inline-block;
+			color: #000;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: none;
+			color: red;
+		}
+
+	</style>
 </head>
+
 <body>
+	<header>
+		<nav>
+			<ul>
 
-<div class="country">
-<h2 style="text-align:center;">Jamaica</h2>
-	<center><img src="/assets/img/Jamaica_240-animated-flag-gifs.gif"></center>
-<p style="text-align:center;">Jamaica is located in the Caribbean Sea. It is famous for Bob Marley, Beaches and Marijuana. It is situated 90 miles south of Cuba</p>
-	<center><a href="http://www.visitjamaica.com">www.visitjamaica.com</a></center>
-</div>
+				<li><a href="Nightlife.html">Nightlife</a>
+					<ul>
+						<li><a href="Nightlife.html#Kingston">Kingston </a></li>
+						<li><a href="Nightlife.html#Montego Bay">Montego Bay</a></li>
+						<li><a href="Nightlife.html#Ocho Rios">Ocho Rios </a></li>
+						<li><a href="Nightlife.html#Negril">Negril </a></li>
+					</ul>
+
+				</li>
+				<li>
+					<a href="#" class="fa fa-facebook"></a>
+				</li>
+				<li>
+					<a href="#" class="fa fa-twitter"></a>
+				</li>
+				<li>
+					<a href="#" class="fa fa-instagram"></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<h1 id="title">My Island Home</h1>
+	<div class="country">
+		<h2 id="t1">Jamaica</h2>
+		<center><img src="assets/img/Jamaica_240-animated-flag-gifs.gif"></center>
+		<p style="text-align:center;font-family: 'gillsans';">Jamaica is located in the Caribbean Sea and is located 90 miles south of Cuba. It is famous for Bob Marley, its Beaches, Ganja and Tourism is its largest export.</p>
+		<center><a href="http://www.visitjamaica.com">www.VisitJamaica.com</a></center>
+	</div>
 
 	<div>
-	<h2 style="text-align:center;">Bob Marley</h2>
-<center><img src="/assets/img/380605_10151076604285757_1354390891_n.jpg"alt="Bob Marley"style="width:304px;height:228px;"></center>
+		<h2 id="t2">Bob Marley</h2>
+		<center><img src="assets/img/380605_10151076604285757_1354390891_n.jpg" alt="Bob Marley" style="width:304px;height:228px;"></center>
+	</div>
+
+	<div>
+		<center><a href="http://www.bobmarley.com">www.BobMarley.com</a></center>
+	</div>
+
+	<div>
+		<h2 id="t3">Beaches</h2>
+		<center><img src="assets/img/negril-7-mile-beach-jamaica1-940x357.jpg" alt="Beaches" style="width:304px;height:228px;"></center>
 	</div>
 	<div>
-	<h2 style="text-align:center;">Beaches</h2>
-<center><img src="/assets/img/negril-7-mile-beach-jamaica1-940x357.jpg" alt="Beaches"style="width:304px;height:228px;"></center>
+		<center><a href="https://en.wikipedia.org/wiki/List_of_beaches_in_Jamaica">www.JamaicanBeaches.com</a></center>
 	</div>
 	<div>
-	<h2 style="text-align:center;">Ganja</h2>
-<center><img src="/assets/img/images.jpeg" alt="Weed"style="width:304px;height:228px;"></center>
+		<h2 id="t4">Ganja</h2>
+		<center><img src="assets/img/images.jpeg" alt="Weed" style="width:304px;height:228px;"></center>
 	</div>
+	<div>
+		<center><a href="https://www.leafly.com/news/pop-culture/jamaicas-roots-the-history-of-ganja-on-the-island">www.JamaicanGanja.com</a></center>
+	</div>
+	<div>
+		<h2 id="t5">Dance Hall Music</h2>
+		<center><img src="assets/img/images%20copy.jpeg" alt="Dance Hall" style="width:304px;height:228px;"></center>
+	</div>
+
+	<div>
+		<center><a href="http://jamaicansmusic.com/learn/origins/dancehall">www.DanceHallMusic.com</a></center>
+	</div>
+
+	<footer id="foot">
+		Daniel's Page<br> &copy; &trade; &amp; &nbsp;&nbsp;&nbsp; Company 2018. All rights reserved.
+	</footer>
+
+</body>
+
+</html>
