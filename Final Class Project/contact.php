@@ -59,7 +59,7 @@
 						<a href="about.html">About</a>
 					</li>
 					<li>
-						<a href="contact.html">Evaluation</a>
+						<a href="contact.php">Evaluation</a>
 					</li>
 				</ul>
 			</div>
